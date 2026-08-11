@@ -1,0 +1,35 @@
+# Licensing
+
+Copyright © 2026 Karsten Evans and Aletheia Protocol contributors.
+
+Only rights lawfully held by a licensor are granted. Referenced third-party material, quotations, names and trademarks remain subject to their own rights and are not relicensed by this notice.
+
+## Knowledge materials — CC BY 4.0
+
+Unless a file states otherwise, the protocol specifications, principles, schemas, templates, examples, proposals, governance material, website text and other non-software documentation in this repository are licensed under the **Creative Commons Attribution 4.0 International licence (CC BY 4.0)**.
+
+- Human-readable terms: [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
+- Full legal text: `LICENSES/CC-BY-4.0.txt`
+
+You may share and adapt this material for any purpose, including commercially, provided that you give appropriate credit, link to the licence and indicate whether changes were made. Attribution must not imply endorsement.
+
+Suggested attribution:
+
+> Aletheia Protocol — Originating Steward: Karsten Evans; developed through documented human–AI collaboration. Licensed under CC BY 4.0. Changes, if any, have been identified.
+
+## Software — Apache License 2.0
+
+Executable source code in `tools/`, and future software or reference implementations explicitly identified as software, are licensed under the **Apache License, Version 2.0**.
+
+- Full legal text: `LICENSES/Apache-2.0.txt`
+- Canonical source: [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+
+The Apache licence grants a worldwide, no-charge, royalty-free copyright and patent licence subject to its stated conditions. It does not grant permission to use project or contributor trademarks except as required for reasonable description and attribution.
+
+## Contributions
+
+Unless explicitly agreed otherwise before submission, a contribution accepted into this repository may be distributed under the licence applicable to the material it changes: CC BY 4.0 for knowledge materials and Apache 2.0 for software.
+
+## No warranty
+
+The licences contain the controlling warranty disclaimers and limitations of liability. Aletheia is a knowledge-stewardship protocol, not legal, medical, engineering, financial or other professional advice.
