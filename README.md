@@ -17,6 +17,8 @@ Aletheia is not a truth machine. It does not make an AI authoritative, expose pr
 
 ## Start here
 
+- `AGENTS.md` — short repository-agent router. It points to the normative files below and does not itself amend the Protocol.
+
 - `ALETHEIA_PROTOCOL_SPECIFICATION_v0.5.md` — normative requirements.
 - `ALETHEIA_PRINCIPLES_v1.0.md` — stable design principles.
 - `ADOPTION_AND_AI_HANDOVER_GUIDE.md` — how another AI or organisation can adopt it.
