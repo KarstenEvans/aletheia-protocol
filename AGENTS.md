@@ -34,3 +34,43 @@ Normative hierarchy remains the hierarchy stated in the Protocol. This router ne
 Before editing normative files, identify the intended proposal/decision route. Prefer the smallest compatible change. Run available validation/build checks and report anything not tested.
 
 Do not change version numbers or claim a new conformance level without the authorised release/governance step.
+
+## Active router requirement
+
+`AGENTS.md` is an **active entry point** into the Protocol repository, not ceremonial documentation.
+
+An agent working in this repository must:
+
+1. Read this file before repository work.
+2. Read any nested/applicable `AGENTS.md` before acting within that narrower scope.
+3. Re-read the applicable router when changing repository or material scope.
+4. Follow the reading order above into the current normative documents rather than relying on remembered or cached versions.
+5. Never claim Protocol or repository compliance without actually loading the applicable instructions.
+6. Treat vendor-specific agent files as scoped adapters. They may add local operational detail but cannot silently override the Protocol's normative hierarchy.
+7. Preserve an observable read/action receipt for material work where useful: which governing files were consulted, which external actions were attempted, which outcomes were observed, and which validations were not performed. This receipt must not expose private chain-of-thought.
+
+### Attempted, completed and verified are distinct
+
+For consequential actions, do not collapse these states:
+- **Attempted:** an action/tool call was issued.
+- **Completed:** the target system reported success.
+- **Verified:** independent or task-appropriate evidence shows the intended outcome actually occurred.
+
+"Done" without outcome evidence must not be promoted to verified completion.
+
+### Agent registration fields
+
+Where an Aletheia implementation maintains an agent register or dashboard, prefer fields compatible with the Agentic Systems Profile:
+- agent/run identity;
+- owner/responsible actor;
+- purpose and scope;
+- authority envelope;
+- tools and data classes;
+- persistent memory/state read and written;
+- human approval boundaries;
+- action receipts;
+- last review/revocation path;
+- unresolved conflicts or evidence gaps.
+
+This is an operational view over the Protocol, not a second competing protocol.
+
