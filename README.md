@@ -15,6 +15,10 @@ Its central rule is:
 
 Aletheia is not a truth machine. It does not make an AI authoritative, expose private chain-of-thought, or prove that a source is correct. It creates a portable record that makes claims easier to inspect, challenge, revise and hand over.
 
+## Animated reader (optional)
+
+[Watch and listen to the README in the animated reader](README.htm). This is a **non-normative presentation** based on the existing Aletheia Three.js animation, with the README text in a slow perspective crawl and an optional Australian English voice (Caroline where available). Click **Start reading** to begin after three seconds. Browser voice availability and speech permissions vary. **This README.md remains the authoritative source**; refresh the HTML reader if the Markdown changes.
+
 ## Start here
 
 - `AGENTS.md` — short repository-agent router. It points to the normative files below and does not itself amend the Protocol.
