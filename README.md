@@ -25,6 +25,7 @@ Aletheia is not a truth machine. It does not make an AI authoritative, expose pr
 
 - `ALETHEIA_PROTOCOL_SPECIFICATION_v0.5.md` — normative requirements.
 - `ALETHEIA_PRINCIPLES_v1.0.md` — stable design principles.
+- [`guides/NEVER_TAKE_NO_FOR_AN_ANSWER.md`](guides/NEVER_TAKE_NO_FOR_AN_ANSWER.md) — active, informative Go Walkabout rule against Premature Evidence Closure; formal specification change remains proposed.
 - `ADOPTION_AND_AI_HANDOVER_GUIDE.md` — how another AI or organisation can adopt it.
 - `ALETHEIA_ALL_IN_ONE_AI_BOOTSTRAP_v0.5.md` — single-file paste-ready edition.
 - `profiles/AGENTIC_SYSTEMS_PROFILE_v0.1.md` — authority, action and population-provenance rules for agentic work.
