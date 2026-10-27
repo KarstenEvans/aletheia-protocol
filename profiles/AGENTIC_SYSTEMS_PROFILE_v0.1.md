@@ -196,6 +196,17 @@ Review MUST consider aggregate action volume, rate, parallelism, duration and pe
 
 Capabilities SHOULD be least-privileged, short-lived, scoped and independently revocable. Shared credentials or authority spanning unrelated targets SHOULD be treated as a material risk. Persistent artefacts SHOULD carry expiry or review conditions where continued use could create harm.
 
+### 14.1 Indirect execution and output effects
+
+AI output MAY cause consequential effects **without** an explicit AI "send" command. A system that renders or delegates generated Markdown, HTML, URLs, images, tool arguments or structured outputs MUST assess whether these can cause resource fetching, network requests, execution, disclosures or downstream actions.
+
+- The applicable authority envelope MUST cover any consequential downstream effect. The system MUST NOT infer authority from the fact that the AI emitted a link, image reference or other content.
+- Where a renderer or downstream component could send restricted data or cause consequential effects, the Operator MUST enforce relevant limits outside the AI's prompt, for example by disabling untrusted automatic external requests, sanitising active output and constraining destinations or permissions.
+- If the system cannot enforce a required boundary, it MUST disable that unsafe automated effect or disclose the limitation and MUST NOT claim that the affected capability is securely contained.
+- The system SHOULD test real or instrumented output side effects, with synthetic data, and preserve observable action receipts or boundary-event evidence where applicable. A model's verbal refusal alone is not evidence of containment.
+
+These controls supplement Section 4 (capability is not authority) and the core Protocol's Section 18.1 (READ / RUN); they do not make a blanket claim that any model is immune to prompt injection.
+
 ## 15. Conformance declaration
 
 A conforming declaration MUST state:
@@ -222,3 +233,4 @@ The declaration MUST NOT state or imply that profile use proves alignment, safet
 8. Are cumulative volume, speed, parallelism and persistence assessed?
 9. After containment, were substitute paths considered and controls retested?
 10. Are credentials, permissions and persistent artefacts scoped, reviewable and revocable?
+11. Are generated output and downstream renderers prevented from causing unauthorised fetches, disclosure or other consequential actions?
