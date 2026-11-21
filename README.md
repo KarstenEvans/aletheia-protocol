@@ -29,6 +29,7 @@ Aletheia is not a truth machine. It does not make an AI authoritative, expose pr
 - `ADOPTION_AND_AI_HANDOVER_GUIDE.md` — how another AI or organisation can adopt it.
 - `ALETHEIA_ALL_IN_ONE_AI_BOOTSTRAP_v0.5.md` — single-file paste-ready edition.
 - `profiles/AGENTIC_SYSTEMS_PROFILE_v0.1.md` — authority, action and population-provenance rules for agentic work.
+- [`Aletheia-secure-development.md`](Aletheia-secure-development.md) — **new draft Secure Development Profile**: provider-neutral, free-first checks for secrets, prompt injection, dependencies, generated code, browser apps, MCP tools and autonomous agents; not yet an accepted Protocol requirement.
 - `proposals/PROP-AGENTIC-001.md` — accepted proposal, evidence review and decision record for the new profile.
 - `REPOSITORY_AND_PUBLICATION.md` — canonical repository and public-site policy.
 - `CHANGELOG.md` — differences from the earlier working format.
@@ -38,6 +39,14 @@ Aletheia is not a truth machine. It does not make an AI authoritative, expose pr
 - `templates/` — reusable project, node, handover and provenance templates.
 - `examples/MINIMAL_EXAMPLE.md` — small worked example.
 - `examples/AGENTIC_INCIDENTS_2026_CASE_STUDY.md` — evidence-bounded stress test for the profile.
+
+## Secure Development Profile (new draft)
+
+The **[Aletheia Secure Development Profile](Aletheia-secure-development.md)** translates the existing Aletheia READ / RUN, privacy and human-authority rules into practical safeguards for AI-assisted development. It distinguishes **Markdown/prompt apps (M)**, **browser/static sites (B)** and **action-capable agents (A)** so safeguards match the actual risk.
+
+It covers model data exposure and secrets, hostile instructions in external content, least-privilege agents and MCP connections, hallucinated or malicious software packages (slopsquatting), generated-code review, security checks before GitHub publication, and incident recovery. It includes test cases and a concrete **Thalia humour app** example. Its tool suggestions are **free-first** and not tied to a vendor.
+
+**Governance:** v0.1.0 is a *draft for piloting and Steward review*, not a silent alteration of the canonical Aletheia 0.5 RC2 requirements. The [Agentic Systems Profile](profiles/AGENTIC_SYSTEMS_PROFILE_v0.1.md) still governs authority envelopes for consequential actions. A Markdown policy alone is not technical enforcement.
 
 ## Minimal adoption
 
