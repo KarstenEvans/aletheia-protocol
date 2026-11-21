@@ -11,7 +11,8 @@ Read:
 4. `GOVERNANCE_AND_CONTRIBUTING.md` — how changes are proposed/reviewed
 5. `ADOPTION_AND_AI_HANDOVER_GUIDE.md` — cross-AI adoption/handover
 6. For action-capable, persistent or multi-agent systems: `profiles/AGENTIC_SYSTEMS_PROFILE_v0.1.md`
-7. Relevant accepted proposals, templates and examples
+7. For AI-assisted coding, browser applications, dependencies or connected tools: `Aletheia-secure-development.md` (draft pilot profile; not an accepted normative amendment)
+8. Relevant accepted proposals, templates and examples
 
 Normative hierarchy remains the hierarchy stated in the Protocol. This router never outranks it.
 
